@@ -1,0 +1,50 @@
+.container {
+    min-height: 500px;
+    margin: 100px auto;
+    position: relative;
+    width: 70%;
+}
+
+.header {
+    background-color: rgb(0, 200, 200);
+    min-height: 150px;
+    border-radius: 1%;
+    position: relative;
+}
+
+.cardBody {
+    /*position: absolute; */
+    min-height: 300px;
+    border-left:5px solid grey;
+    border-bottom:5px solid grey;
+    border-right:5px solid grey;
+    border-radius: 1%;
+    padding: 50px;
+}
+
+.profileImage {
+    position: absolute;
+    width: 130px;
+    padding: 40px;
+    border-radius: 50%;
+}
+
+h1 {
+    color: black;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+h2 {
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+.mapMarker {
+    display: inline-block;
+    width: 15px;
+}
+
+.cogWheel {
+    width: 20px;
+}
